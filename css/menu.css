@@ -1,0 +1,159 @@
+
+*
+{ margin: 0px;
+padding: 5px; outline: 0;
+}
+html { width: 100%; background-color: #3d53e3;}
+
+body {
+/*background:url(../imagenes/11.png);*/
+background-size:100% 100%;
+background-repeat:no-repeat;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+
+
+}
+/* index.php */
+#contenedor {
+	width:100% 100%;
+	margin:-10;
+	padding-top:0px;
+
+}
+#encabezado {
+	text-align:right;
+	height:150px;
+	padding-top: 10px;
+	margin:4px;
+	position: relative;
+
+}
+@font-face{
+	font-family: ' Jura ', sans-serif ;
+	src: url(http://fonts.googleapis.com/css?family=Jura);
+	}
+#encabezado img{
+	max-width: 25%;
+	position: relative;
+	margin-top: 40px;
+	margin-right: 140px;
+
+}
+#encabezado h2{
+	font-family: Jura , sans-serif;
+	font-size: 3.5em;
+	color: #b6c6ff;
+	position: absolute;
+	right:100px;
+	top:20px;
+	text-shadow: 5px 5px 5px #000;
+}
+#encabezado h3{
+	font-family: Jura , sans-serif;
+	font-size: 1.3em;
+	color: #1448ff;
+	position: absolute;
+	right:100px;
+	top:130px;
+	text-shadow: 5px 5px 5px #000;
+}
+#encabezado a:link, a:visited {
+  color: black;
+}
+
+#formulario{
+	background-color: rgba(29,29,28,.51);
+	border-radius: 5px;
+	position: relative;
+	margin-top: -180px;
+	margin-left: 102px;
+	padding: 10px;
+	max-width: 550px;
+}
+.formulario input, select{
+  border-radius: 5px;
+  border: 1px solid #070b67;
+  background: rgba(126,193,226,7);
+
+}
+.formulario select, input[type="submit"] {
+	width: 100%;
+}
+
+
+#contenido {
+	margin: 3px;
+	padding:5px;
+	min-height: 500px;
+	background-color: rgba(29,29,28,.51);
+	border-radius: 5px;
+
+
+}
+/*NUEVO*/
+.imagen-central img{
+	max-width: 100%;
+	opacity: 0.2;
+    filter: alpha(opacity=20);
+
+}
+
+h2{
+	text-align: center;
+	font-family: verdana, arial, sans-serif;
+	color:#fff;
+
+}
+	table.compare {
+		display: inline-block;
+		position: relative;
+		width: 100%;
+		margin: 0;
+	}
+	table.compare td {
+		font: .8em/1.4em Verdana, sans-serif;
+		color: #121111;
+		text-align: center;
+		/*border-top: 1px solid #eee;*/
+		padding: .5em;
+	}
+	table tr:nth-child(1) td:nth-child(1n+0){
+		color: #fff;
+		/*font-size: 1.2em;*/
+		font-weight: 600;
+		text-align: center;
+	}
+	table tr:nth-child(1) {
+		background-color:rgba(250,130,54,1);
+
+	}
+	tr:nth-child(odd) {
+		background-color:rgba(176,250,192,.6);
+	}
+	tr:nth-child(even) {
+		background-color:rgba(79,140,189,.6);
+	}
+	/*NUEVO*/
+	.pie {
+		color: #fff;
+		text-align: center;
+		margin-top: -30px;
+	}
+	.pie img{
+		color: #fff;
+		max-width: 10%;
+		vertical-align: middle;
+
+
+	}
+/*#pie {
+	background-color: rgba(0,0,0,0.5);
+	background-size: 100% 100%;
+	height:10px;
+	padding:5px;
+	text-align:center;
+	color:white;
+	margin: 20px 0px 0px-10px;
+	vertical-align:text-bottom;
+}*/

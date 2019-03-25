@@ -1,0 +1,37 @@
+*{padding:5px;}
+* ::-webkit-input-placeholder{color:#ffa500}
+* :-moz-placeholder{color:#ffa500}
+* ::-moz-placeholder{color:#ffa500}
+* :-ms-input-placeholder{color:#ffa500}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #0a0a0a;
+}
+h2{
+  text-align: center;
+}
+#formulario{
+ display:flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px #2a2a2a solid;
+  border-radius: 20px;
+  margin: 30px 20px;
+  text-align: left;
+
+}
+.formulario hr{
+  display: none;
+}
+.formulario input, select{
+  border-radius: 5px;
+  border: 1px solid #070b67;
+  background: rgba(126, 183, 226, 0.51);
+
+}
+
+.izquierda{
+  text-align: right;
+}
